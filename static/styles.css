@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;500;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --brand-green: #2B3C2C;
+    --brand-tan: #DCA97C;
+    --brand-yellow: #FFFF7B;
+    --brand-taupe: #F6EFE7;
+    --brand-white: #FEFCFD;
+    --brand-lightgreen: #AABBA9;
+
+    --type-serif: 'Libre Baskerville', serif;
+    --type-sans: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: var(--type-serif);
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+.jumbotron {
+    background: url('/static/jackson-david-8qudl9pDZJ0-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 600px;
+    color: var(--brand-white);
+}
+
+.jumbotron h1 {
+    margin-bottom: 40px;
+
+}
+
+.jumbotron p {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.text-container {
+    padding: 40px;
+    padding-top: 60px;
+    max-width: 30%;
+}
+
+header {
+    background-color: var(--brand-green);
+    color: var(--brand-yellow);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--brand-taupe);
+    color: var(--brand-green);
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0 0px 0 0px;
+    min-width: 100px;
+}
+
+.nav-brand {
+    flex-grow: 3;
+    font-family: var(--type-serif);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.products {
+    background-color: var(--brand-white);
+    min-height: 600px;
+    padding: 20px 300px 60px 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-control {
+    color: var(--brand-green);
+    font-size: 40px;
+}
+
+.product-heading {
+    padding: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-heading p{
+    text-transform: uppercase;
+    color: var(--brand-lightgreen);
+    padding-bottom: 10px;;
+}
+
+.product-img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: solid 2px var(--brand-lightgreen);
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product-price {
+    float: right;
+}
+
+.product-category {
+    text-transform: uppercase;
+    color: var(--brand-lightgreen);
+    font-size: 14px;
+}
+
+.quote {
+    padding: 80px 120px 80px 120px;
+    background-color: var(--brand-lightgreen);
+}
+
+.quote-text {
+    margin: 0 auto;
+    max-width: 80%;
+    font-family: var(--type-serif);
+    font-size: 38px;
+    color: var(--brand-green);
+}
+
+.quote-text span {
+    font-family: var(--type-serif);
+    color: var(--brand-yellow);
+}
+
+.categories {
+    display: flex;
+    height: 700px;
+}
+
+.category-header {
+    margin-bottom: 60px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: var(--brand-lightgreen);
+}
+
+.category-name {
+    font-size: 36px;
+    font-family: var(--type-serif);
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.category-bar {
+    min-width: 25%;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.category-main {
+    flex-grow: 2;
+    background-color: var(--brand-white);
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.category-body {
+    margin-top: 40px;
+    max-width: 70%;
+}
+
+.category-secondary {
+    background-color: var(--brand-green);
+    color: var(--brand-white);
+}
+
+.category-tertiary {
+    background-color: #B8B1C3;
+    color: var(--brand-green);
+}
+
+.category-tertiary p {
+    color: var(--brand-white);
+}
+
+footer {
+    background-color: var(--brand-taupe);
+    display: flex;
+    padding: 100px 200px 100px 200px
+}
+
+.footer-brand {
+    font-size: 20px;
+}
+
+.footer-links {
+    padding-left: 80px;
+    
+}
+
+.footer-links ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: right;
+    font-size: 40px;
+    flex-grow: 4;
+}
+
+.footer-social i {
+    padding-left: 10px;
+}
